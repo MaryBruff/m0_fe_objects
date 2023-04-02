@@ -13,19 +13,20 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+foods.kiwi = 15
+console.log(foods.kiwi);
 
 
 // -------------------
@@ -38,17 +39,24 @@ var foods = {
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+var email = {
+  sender: "Haley Young",
+  subject: "New Orleans Plans",
+  receiever: "Mary Bruff",
+  body: "Shall we plana  trip to the bayou this time?!",
+  date: "July 16,2023"
+}
 
 // Write code that logs your email object to the terminal.
-
+console.log(email);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email));
 
 
 // -------------------
@@ -99,3 +107,29 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+var emails = [
+  {
+  sender: "Haley Young",
+  subject: "New Orleans Plans",
+  receiever: "Mary Bruff",
+  body: "Shall we plana  trip to the bayou this time?!",
+  date: "July 16,2023",
+},
+  {
+  sender: "Chandler Romeo",
+  subject: "Sunday Dinner",
+  receiever: "Mary Bruff",
+  body: "Hey all! Grilled Chicken, flank steak and asparagus on the menu",
+  date: "April 1,2023",
+},
+  {
+  sender: "The Criterion Channel",
+  subject: "Our April Lineup",
+  receiever: "Mary Bruff",
+  body: "Check out our April lineup,a complete guide to what's streaming now!",
+  date: "April 1,2023",
+},  
+  
+]
+
+console.log(emails);
